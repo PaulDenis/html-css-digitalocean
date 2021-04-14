@@ -30,7 +30,27 @@
 
 
 /* header */
+.my_navbar_style {
+    margin: 0;
+}
 
+.my_brand.navbar-header {
+    margin-right: 100px;
+}
+
+.my_logo {
+    height: 25px;
+}
+
+.my_navbar_style .navbar-default .navbar-nav  li  a {
+    color: #2f446c !important;
+}
+
+.my_navbar_style .navbar-default .navbar-nav > li > a:hover,
+.my_navbar_style .navbar-default .navbar-nav > li > a:focus {
+    color: #2f446c;
+    background-color: transparent;
+  }
 
 .jumbotron {
     background-image: url("../img/bg-banner-home.jpg");
