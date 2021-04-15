@@ -123,12 +123,14 @@ body {
     vertical-align: middle;
 }
 
-.costumers a {
+.link_blue {
+    font-weight: 600;
+    font-size: 14px;
     color: #2c83fe;
 }
 
-.costumers i {
-    font-size: 8px;
+.link_blue i {
+    font-size: 10px;
     margin-left: 5px;
     line-height: 16px;
     vertical-align: middle;
@@ -173,7 +175,7 @@ main h3 {
     color: #132a58;
 }
 
-main .col-sm-6 p {
+main [class *= "col-"] p {
     font-size: 15px;
 }
 
@@ -198,6 +200,10 @@ main .row .row {
     font-size: 50px;
     margin: 0 20px;
     color: #031c4e;
+}
+
+#design i:hover {
+    cursor: pointer;
 }
 #design i:first-child {
     opacity: .5;
@@ -224,6 +230,13 @@ main .row .row {
     background-color: #006aff;
 }
 
+#features .container {
+    text-align: left;
+}
+
+#features img {
+    margin-top: 20px;
+}
 /* media query */
 
 @media screen and (max-width: 992px) {
