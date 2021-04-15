@@ -215,10 +215,6 @@ main .row .row {
 #development i:hover {
     cursor: pointer;
 }
-#design i:first-child,
-#development div > i:first-child {
-    opacity: .5;
-}
 
 #img_text {
     font-size: 14px;
