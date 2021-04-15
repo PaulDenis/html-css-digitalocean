@@ -33,6 +33,13 @@ body {
     color: #6d6d6d;
 }
 
+main .color_white {
+    color: white;
+}
+
+main .color_light_blue {
+    color: #b5bfe1;
+}
 
 /* header */
 .my_navbar_style {
@@ -237,6 +244,35 @@ main .row .row {
 #features img {
     margin-top: 20px;
 }
+
+#service {
+    background: linear-gradient(#0047c5, #001d99);
+}  
+#service .container {
+    text-align: left;
+    line-height: 20px;
+}
+
+#service a {
+    font-size: 10px;
+    color: #00acc6;
+}
+#service i {
+    font-size: 8px;
+}
+
+#service p {
+    font-size: 10px;
+    margin: 0;
+}
+
+#service .row .row:not(:last-child) {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
 /* media query */
 
 @media screen and (max-width: 992px) {
